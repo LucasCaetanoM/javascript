@@ -22,13 +22,13 @@ while (opcao.toUpperCase() != "S") {
         }
         else if (opcao == "3") {
             resultado = n1 * n2
-    
+        }
         else if (opcao == "4") {
                 resultado = n1 / n2
-            }
-            else {
+        }
+        else {
                 resultado = "Opção inválida";
-            }
+        }
 
             alert(resultado);
         }
