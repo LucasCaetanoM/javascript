@@ -10,9 +10,11 @@
     border-bottom: 1px solid brown;
 }
 #painel{
-    width: 10vw;
+    width: 100vw;
     min-height: 70vh;
 } 
 td {
-    padding: 10px;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
 }
