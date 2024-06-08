@@ -1,0 +1,19 @@
+#um {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+#tres{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+#quatro{
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    position: absolute;
+    top: 410px;
+    left: 0px;
+}
