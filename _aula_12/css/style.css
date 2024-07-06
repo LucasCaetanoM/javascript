@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav {
+    background-color: #4a148c;
+    position: absolute;
+    width: 100vw;
+    top: -100px;
+    transition: ease-in-out 1s;
+}
+
+#nav nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px
+}
+
+#nav nav ul li {
+    margin-right: 20px;
+}
+
+#nav nav ul li a {
+    font-family: verdana;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#buscar {
+    width: 500px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 0px;
+    outline: none;
+}
+
+button {
+    padding: 5px;
+    border: 0px;
+    background-color: chocolate;
+    cursor: pointer;
+    width: 100px;
+    color: white;
+}
+
+#fechar {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    font-size: 20pt;
+    font-family: verdana;
+}
+
+#menu {
+    text-decoration: none;
+    color: silver;
+    font-size: 20pt;
+    font-family: verdana;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: ease 0.5s;
+}
+
+#menu:hover {
+    margin-left: 15pt;
+    color: lime;
+    text-shadow: 0px 0px 5px silver;
+}
+
+#listar,
+#resultado,
+#inserir {
+    width: 80vw;
+    border: 1px solid silver;
+    margin: 150px auto;
+}
+
+#listarlivros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    width: 30%;
+    margin: 10%;
+}
+
+.caixa img {
+    width: 100%;
+}
+
+h4 {
+    font-family: Verdana;
+    font-size: 20pt;
+    margin: 15px;
+}
+
+h5 {
+    font-family: Verdana;
+    font-size: 10pt;
+    margin: 10px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 10pt;
+    margin: 10px;
+}
+
+#inserir form{
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+#inserir input[type="text"], #inserir select, #inserir textarea{
+    width: 95%;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    outline: none;
+}
+#txtpreco{
+    width: 40% !important;
+}
+#txtgenero{
+    width: 40% !important;
+}
+#txtsinopse{
+    height: 100px;
+    resize: none;
+}
+button{
+    border-radius: 10pt;
+}
